@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Lesson2_task3</title>
+</head>
+<body>
+  <div>
+    <label for="text">Name</label><br/>
+    <input type="text" name="name" maxlength="20"><br/>
+  </div>
+  <br/>
+  <div>
+    <label for="email">Email</label><br/>
+    <input type="email" name="email"><br/>
+  </div>
+  <br/>
+  <div>
+    <label for="sex">Sex</label><br/>
+    <input type="radio" name="sex" value="male"x>Male
+    <!-- <label for="option1">Male</label> -->
+    <input type="radio" name="sex" value="female">Female
+  </div>
+  <br/>
+  <div>
+    <label for="status">Current Status</label><br/>
+    <input type="checkbox" name="status" id="status1" value="student">Student<br/>
+    <input type="checkbox" name="status" id="status2" value="employed">Employed<br/>
+    <input type="checkbox" name="status" id="status3" value="unemployed">Unemployed<br/>
+  </div>
+  <br/>
+  <div>
+    <label for="month-year">Month and Year of Birth</label><br/>
+    <select name="month">
+      <option value="june" label="June"></option>
+      <option value="july" label="July"></option>
+      <option value="august" label="August"></option>
+    </select>
+    <select name="year">
+      <option value="1987" label="1987"></option>
+      <option value="1988" label="1988"></option>
+      <option value="1989" label="1989"></option>
+    </select>
+  </div>
+  <br/>
+  <div>
+    <label for="skills">Skills and Technologies</label><br/>
+    <select multiple size="10">
+      <optgroup label="Tech skills">
+        <option value="html" label="HTML"></option>
+        <option value="css" label="CSS"></option>
+        <option value="js" label="JavaScript"></option>
+        <option value="git" label="git"></option>
+      <optgroup label="Soft skills">
+        <option value="timeman" label="Time Management"></option>
+        <option value="proactivity" label="Proactivity"></option>
+        <option value="teamw" label="Team work"></option>
+        <option value="leader" label="Leadership"></option>
+    </select>
+  </div>
+  <br/>
+  <div>
+    <label for="photo">Photo</label><br/>
+    <input type="file" name="file" id="file">
+  </div>
+  <br/>
+  <div>
+    <label for="comments">Comments</label><br/>
+    <textarea name="comments" id="comments"></textarea>
+  </div>
+  <br/>
+  <div>
+    <button type="button" name="save" id="save">Save</button>
+  </div>
+</body>
+</html>
