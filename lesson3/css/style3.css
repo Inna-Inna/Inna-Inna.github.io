@@ -1,0 +1,10 @@
+a[href^="http"] {
+  color: #f70;
+}
+a[href*="google"] {
+  color: #666;
+}
+[target="_blank"]::after{
+  content: '\2370';
+  text-decoration: none;
+}
