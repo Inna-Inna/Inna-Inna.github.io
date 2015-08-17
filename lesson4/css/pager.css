@@ -1,0 +1,39 @@
+.paginator{
+  display: block;
+}
+li{
+  display: inline-block;
+}
+a{
+  display: block;
+  text-decoration: none;
+  color: #a23cd0;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  padding:5px 9px;
+}
+
+a:hover{
+  color: #fff;
+  border-color: #7c12bc;
+  background-color: #a23cd0;
+}
+
+.current{
+  color: #fff;
+  border-color: #7c12bc;
+  background-color: #a23cd0;
+}
+.pager, .pager:hover {
+  border: none;
+  padding: 0;
+  margin: 10px;
+  background-color:#fff;
+  color: #a23cd0;
+  text-align: center;
+  vertical-align: middle;
+}
+.hidden{
+  padding: 0;
+  vertical-align: bottom;
+}
