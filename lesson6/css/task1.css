@@ -1,0 +1,163 @@
+body{
+  padding:0;
+  margin: 0;
+  font-family: "Trebuchet MS", serif, sans-serif;
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: rgb( 65, 82, 92 );
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+section{
+  text-align: center;
+  margin: 0 auto;
+}
+.offer{
+  display: inline-block;
+  text-align: left;
+  width: 290px;
+  height: 460px;
+  margin:0;
+  border-radius: 6px;
+}
+.standard{
+  position: relative;
+  border: 1px solid rgb( 232, 234, 236 );
+  width: 294px;
+  height: 444px;
+  /*margin-right: -8px;*/
+  z-index: 1;
+}
+.best-value{
+  position: relative;
+  border: 3px solid rgb( 238, 129, 41 );
+  box-shadow: 0px 0px 10px 0px rgb( 8, 116, 178 );
+  margin: 0 -8px;
+  z-index: 2;
+}
+.ultimate{
+  position: relative;
+  border: 1px solid rgb( 232, 234, 236 );
+  width: 294px;
+  height: 444px;
+  /*margin-left: -8px;*/
+  z-index: 1;
+}
+.std{
+  background-color: rgb( 55, 194, 211 );
+  height:65px;
+  text-align: center;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.bv{
+  background-color: rgb( 238, 129, 41 );
+  height:73px;
+  text-align: center;
+}
+.ult{
+  background-color: rgb( 28, 183, 154 );
+  height:65px;
+  text-align: center;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.header p{
+  margin: 0px;
+  font-size: 24px;
+  font-family: "Trebuchet MS";
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.833;
+}
+
+.content .iconic{
+  font-size: 24px;
+  font-family: "Trebuchet MS";
+  color: #3f4042;
+  text-transform: uppercase;
+  line-height: 0.9;
+  text-align: center;
+}
+.content .price{
+  margin: 0 auto;
+  font-size: 72px;
+  font-family: "Trebuchet MS";
+  color: rgb( 53, 73, 90 );
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.833;
+  text-align: center;
+}
+.content .currency{
+  font-size: 23px;
+  vertical-align: top;
+}
+.content .basis{
+  text-transform: none;
+  vertical-align:bottom;
+  font-size: 18px;
+  line-height: 0.3;
+  font-weight: normal;
+}
+
+.list{
+  display: block;
+  padding: 15px;
+  margin: 0 auto;
+}
+.list ul{
+  display: block;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
+
+.list li{
+  display: block;
+  padding:2px 30px;
+  margin: 1px auto;
+  font-size: 15px;
+  line-height: 1.6;
+  color: rgb( 136, 140, 148 );
+  list-style-type: none;
+}
+.list li::before{
+  content: url("../static/mark.png");
+  margin-right: 8%;
+  vertical-align: sub;
+}
+.even{
+  background-color: rgb( 245, 245, 246 );
+}
+.odd{
+  background-color: rgb( 232, 242, 251 );
+}
+
+button {
+  margin: 0 20px;
+  border-radius: 5px;
+  border:none;
+  width: 253px;
+  height: 38px;
+  font-size: 14px;
+  color:#fff;
+  font-weight: bold;
+  line-height: 1.143;
+  text-align: center;
+}
+button:active{
+  border: none;
+}
+.std-enroll, .ult-enroll{
+  background-color: rgb( 51, 113, 166 );
+  box-shadow: 0px 3px 0px 0px rgb( 22, 67, 106 );
+}
+.bv-enroll{
+  background-color: rgb( 238, 129, 41 );
+  box-shadow: 0px 3px 0px 0px rgb( 179, 86, 11 );
+}

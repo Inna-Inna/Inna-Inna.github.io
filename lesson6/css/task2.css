@@ -1,0 +1,82 @@
+*{
+  border: 1px solid red;
+}
+body{
+  padding: 0;
+  margin:0 auto;
+  font-family: "Trebuchet MS";
+  /*background-image: */
+}
+section{
+  background-color: rgb( 48, 112, 168 );
+  width: 1402px;
+  height: 315px;
+  text-align: center;
+}
+.article1{
+  display: block;
+}
+h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  /*line-height: 0.45;*/
+}
+h1 span{
+  color: rgb( 238, 129, 41 );
+}
+.header{
+  width:100%;
+  display: inline-block;
+  font-size: 13px;
+  color: rgb( 48, 112, 168 );
+  font-style: italic;
+  line-height: 1.846;
+  text-align: left;
+  margin: 0;
+}
+.comment{
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid rgb( 224, 224, 224 );
+  background-color: rgb( 247, 247, 247 );
+  box-shadow: 0.5px 0.866px 2px 0px rgb( 0, 0, 0 );
+  width: 378px;
+  height: 96px;
+}
+.customer-name{
+  /*display: inline-block;*/
+  float: left;
+  text-align: left;
+}
+.status{
+  /*display: inline-block;*/
+  float: right;
+  text-align: right;
+}
+hr{
+  font-family: "Arial";
+  border:1px dashed rgb( 102, 102, 102 );
+  margin: 0;
+}
+
+.text{
+  display: block;
+  /*content:attr("Lorem");*/
+  font-size: 13px;
+  font-family: "Trebuchet MS";
+  color: rgb( 102, 102, 102 );
+  /*line-height: 1.538;*/
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+.text p{
+  margin: 5px 0 0 0;
+  padding: 0;
+  line-height: 1.538;
+}
+.photo1{
+  display: inline-block;
+  /*clip:;*/
+}
