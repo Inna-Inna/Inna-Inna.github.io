@@ -1,5 +1,8 @@
+
 .paginator{
   display: block;
+  margin:0;
+  padding: 0;
 }
 li{
   display: inline-block;
@@ -18,13 +21,21 @@ a:hover{
   border-color: #7c12bc;
   background-color: #a23cd0;
 }
+.left-text::before{
+  content:"«";
+  margin-right: 5px;
+}
+.right-text::after{
+  content:"»";
+  margin-left: 5px;
+}
 
 .current{
   color: #fff;
   border-color: #7c12bc;
   background-color: #a23cd0;
 }
-.pager, .pager:hover {
+.left-text, .left-text:hover, .right-text, .right-text:hover {
   border: none;
   padding: 0;
   margin: 10px;
@@ -33,7 +44,10 @@ a:hover{
   text-align: center;
   vertical-align: middle;
 }
-.hidden{
-  padding: 0;
-  vertical-align: bottom;
+.hidden, .hidden:hover{
+  border: none;
+  background-color:#fff;
+  color: #a23cd0;
+  text-align: center;
+  vertical-align:middle;
 }
