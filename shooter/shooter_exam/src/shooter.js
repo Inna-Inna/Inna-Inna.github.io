@@ -135,8 +135,8 @@ var jQuery = require("jquery");
         };
 
         self.countScore = function(){
-            self.score += self.scorePull[self.speed];
-            $totalScore.html(self.score);
+            self.totalScore = self.score + self.scorePull[self.speed];
+            $totalScore.html(self.totalScore);
         };
 
         self.nextLevel = function(){
@@ -149,6 +149,7 @@ var jQuery = require("jquery");
             userClick = false;
             notFoul = false;
             self.win = false;
+            self.score = self.totalScore;
             self.start();
         };
 
