@@ -50,7 +50,6 @@ var jQuery = require("jquery");
                 $overlay.css('visibility','hidden');
                 self.start();
             })
-
         };
 
         self.start = function(){
